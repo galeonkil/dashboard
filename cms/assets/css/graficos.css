@@ -1,0 +1,43 @@
+.graficos{
+    position:relative;
+    left:250px;
+    height: 70vh;
+    width: 90vw;
+
+
+
+}
+.encabezado{
+       width:100%;
+       position:relative;
+       left:250px;
+       color:white;
+}
+.tabla{
+    position: relative;
+    left: 250px;
+    top: 50px;
+}
+
+@media (max-width: 768px){
+    .graficos{
+    left:40px;
+
+
+}
+    .encabezado{
+    left:55px;
+}
+    .tabla{
+        left: 55px;
+    }
+
+}
+@media (max-width: 576px){
+
+    .boton{
+        display: block;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+}
